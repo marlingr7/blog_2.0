@@ -71,5 +71,17 @@
             <hr>
         </div>
     </div>
+    <div class="circle-text">
+        <p id="circle">ABC DEV - MARLIN GUTIERREZ RIVERA-</p>
+    </div>
+    <script>
+        var circle = document.getElementById('circle');
+        var circleArray = circle.textContent.split('');
+        circle.textContent = '';
+
+        for (var i = 0; i < circleArray.length; i++) {
+            circle.innerHTML += '<span style="-webkit-transform: rotate(' + ((i + 1) * 10) + 'deg);transform: rotate(' + ((i + 1) * 10) + 'deg);">' + circleArray[i] + '</span>';
+        }
+    </script>
 
 </html>

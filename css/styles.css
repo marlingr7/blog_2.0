@@ -252,6 +252,51 @@ h2 i {
   margin-right: 14%;
 }
 
+.circle-text{
+  position: absolute;
+  opacity: 0.8;
+  left: 59%;
+  top:12%;
+  z-index: 2;
+}
+
+#circle span {
+  font-size: 7px;
+  font-family: "Philosopher", sans-serif;
+  color: var(--color-letter);
+  width: 10px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform-origin: bottom center;
+  -webkit-transform-origin: bottom center;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width:1180px) {
+  img{
+    width: 38%;
+  }
+  
+}
+
+@media screen and (max-width:1010px) {
+  img{
+    width: 42%;
+  }
+
+  .cont-final p{
+    margin-left: -12%;
+    margin-top: -10%;
+  }
+
+  .cont-final img{
+    width: 37%;
+  }
+  
+}
+
 @media screen and (max-width: 900px) {
   .cont-all {
     width: 100%;
@@ -268,6 +313,20 @@ h2 i {
   .hr-horizontal {
     width: 60%;
   }
+
+  img{
+    width: 38%;
+  }
+
+  .cont-final p{
+    margin-left: -7%;
+    margin-top: -3%;
+  }
+
+  .cont-final img{
+    width: 32%;
+  }
+  
 }
 
 @media screen and (max-width: 685px) {
@@ -276,26 +335,31 @@ h2 i {
   }
 
   img {
-    width: 40%;
+    width: 45%;
   }
 
   h2 {
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 33px;
+    line-height: 33px;
   }
 
   h2 i {
-    font-size: 25px;
+    font-size: 33px;
   }
 
   p {
     font-size: 9px;
   }
 
+
   .cont-final p {
-    margin-top: -7%;
-    margin-left: -12%;
     width: 20%;
+    margin-top: 2%;
+    margin-left: 1%;
+  }
+
+  .cont-final img{
+    width: 35%;
   }
 
   .cont-final p i {
@@ -307,6 +371,17 @@ h2 i {
     margin: 2% 0 0 5%;
     font-size: 12px;
   }
+}
+
+@media screen and (max-width:640px) {
+  img{
+    width: 50%;
+  }
+
+  .cont-final img{
+    width: 42%;
+  }
+  
 }
 
 @media screen and (max-width: 460px) {
@@ -323,11 +398,11 @@ h2 i {
   }
 
   .cont-all{
-    height: 70%;
+    height: 65%;
   }
 
   .hr hr{
-    height: 74%;
+    height: 70%;
   }
 
   .cont-nav{
@@ -379,7 +454,7 @@ h2 i {
 
 
   img{
-    width: 55%;
+    width: 57%;
 
   }
 
@@ -392,9 +467,13 @@ h2 i {
   
   .cont-final p{
     margin: 0;
-    width: 25%;
+    width: 20%;
     font-size: 5px;
     align-self: center;
+  }
+
+  .cont-final img{
+    width: 45%;
   }
 
   .cont-next{
@@ -403,7 +482,7 @@ h2 i {
 
   .hr-horizontal{
     width: 25%;
-    height: 85%;
+    height: 61%;
   }
 
   .hr-horizontal hr{
@@ -412,6 +491,11 @@ h2 i {
 
   .cont-next p{
     font-size: 10px;
+  }
+
+  .circle-text{
+    left: 45%;
+    top: 55%;
   }
 }
 
